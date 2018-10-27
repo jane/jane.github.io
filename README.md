@@ -1,11 +1,1 @@
-# cards
-
---------
-
-## Installation
-
-## Usage
-
-## License
-
-[MIT](./LICENSE.md)
+# <https://jane.github.io>
