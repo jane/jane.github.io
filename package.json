@@ -15,9 +15,13 @@
   "homepage": "https://jane.github.io",
   "dependencies": {
     "cxs": "6.2.0",
-    "react": "16.5.0",
-    "react-dom": "16.5.0",
+    "react": "16.6.0",
+    "react-dom": "16.6.0",
     "react-scripts": "2.0.5"
+  },
+  "devDependencies": {
+    "husky": "1.1.2",
+    "lint-staged": "7.3.0"
   },
   "browserslist": [
     ">0.5%",
@@ -25,6 +29,17 @@
   ],
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run build",
+      "git add"
+    ]
   },
   "prettier": {
     "arrowParens": "always",
