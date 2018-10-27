@@ -19,27 +19,12 @@
     "react-dom": "16.6.0",
     "react-scripts": "2.0.5"
   },
-  "devDependencies": {
-    "husky": "1.1.2",
-    "lint-staged": "7.3.0"
-  },
   "browserslist": [
     ">0.5%",
     "ie >= 11"
   ],
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "npm run build",
-      "git add"
-    ]
   },
   "prettier": {
     "arrowParens": "always",
