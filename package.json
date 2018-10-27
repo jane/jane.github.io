@@ -12,7 +12,7 @@
     "postbuild": "rm -rf opensource && mv build opensource",
     "start": "react-scripts start"
   },
-  "homepage": "https://jane.github.io",
+  "homepage": "https://jane.github.io/opensource",
   "dependencies": {
     "cxs": "6.2.0",
     "react": "16.6.0",
