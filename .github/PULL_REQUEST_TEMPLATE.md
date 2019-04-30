@@ -17,7 +17,3 @@
 ## Checklist
 
 * [ ] Followed PR template
-* [ ] Added unit tests if applicable
-* [ ] Added contract tests if applicable
-* [ ] Added integration tests if applicable
-* [ ] Added e2e tests if applicable

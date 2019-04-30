@@ -8,9 +8,10 @@
     "url": "https://zacanger.com"
   },
   "scripts": {
-    "build": "sortpack && react-scripts build",
+    "build": "react-scripts build",
     "eject": "react-scripts eject",
     "postbuild": "rm -rf opensource && mv build opensource",
+    "prebuild": "sortpack",
     "start": "react-scripts start"
   },
   "homepage": "https://jane.github.io/opensource",
@@ -21,7 +22,11 @@
     "react-scripts": "3.0.0"
   },
   "devDependencies": {
-    "sortpack": "1.1.5"
+    "@types/node": "11.13.8",
+    "@types/react": "16.8.15",
+    "@types/react-dom": "16.8.4",
+    "sortpack": "1.1.5",
+    "typescript": "3.4.5"
   },
   "browserslist": [
     ">0.5%",
