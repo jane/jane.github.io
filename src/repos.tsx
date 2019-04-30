@@ -1,5 +1,6 @@
 import * as React from 'react'
 import c from 'cxs/component'
+import { DisplayRepo } from './app'
 
 const Section = c('section')({
   background: 'white',
@@ -21,7 +22,7 @@ const StarSpan = c('span')({
 
 const Star = () => <StarSpan>{' \u2605'}</StarSpan>
 
-const Stars = ({ stars }) => (
+const Stars = ({ stars }: { stars: number }) => (
   <span>
     {stars} <Star />
   </span>
@@ -65,7 +66,7 @@ const NoWrap = c('span')({
   marginBottom: '16px',
 })
 
-const Repo = (props) => (
+const Repo = (props: DisplayRepo) => (
   <RepoWrapper key={props.name}>
     <RepoName href={props.url} target="blank" rel="noopener noreferrer">
       {props.name}
@@ -83,9 +84,9 @@ const Repo = (props) => (
   </RepoWrapper>
 )
 
-const Repos = (props) => (
+const Repos = ({ repos }: { repos: Array<DisplayRepo> }) => (
   <Section>
-    {props.repos.map((repo) => (
+    {repos.map((repo) => (
       <Repo {...repo} key={repo.name} />
     ))}
   </Section>
