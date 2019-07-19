@@ -22,7 +22,7 @@
     "react-scripts": "3.0.1"
   },
   "devDependencies": {
-    "@types/node": "12.6.3",
+    "@types/node": "12.6.8",
     "@types/react": "16.8.23",
     "@types/react-dom": "16.8.4",
     "sortpack": "1.2.0",
