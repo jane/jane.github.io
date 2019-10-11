@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.js": "/opensource/static/js/main.db3c592f.chunk.js",
-    "main.js.map": "/opensource/static/js/main.db3c592f.chunk.js.map",
-    "runtime~main.js": "/opensource/static/js/runtime~main.d76b3f40.js",
-    "runtime~main.js.map": "/opensource/static/js/runtime~main.d76b3f40.js.map",
-    "static/js/2.34d537fd.chunk.js": "/opensource/static/js/2.34d537fd.chunk.js",
-    "static/js/2.34d537fd.chunk.js.map": "/opensource/static/js/2.34d537fd.chunk.js.map",
+    "main.js": "/opensource/static/js/main.79604928.chunk.js",
+    "main.js.map": "/opensource/static/js/main.79604928.chunk.js.map",
+    "runtime-main.js": "/opensource/static/js/runtime-main.ca45a5f4.js",
+    "runtime-main.js.map": "/opensource/static/js/runtime-main.ca45a5f4.js.map",
+    "static/js/2.8dd8a5d8.chunk.js": "/opensource/static/js/2.8dd8a5d8.chunk.js",
+    "static/js/2.8dd8a5d8.chunk.js.map": "/opensource/static/js/2.8dd8a5d8.chunk.js.map",
     "index.html": "/opensource/index.html",
-    "precache-manifest.b906ace77c8acf05d87c493921a1ab93.js": "/opensource/precache-manifest.b906ace77c8acf05d87c493921a1ab93.js",
+    "precache-manifest.7161186c713b48a6c34bb8d5b61333ac.js": "/opensource/precache-manifest.7161186c713b48a6c34bb8d5b61333ac.js",
     "service-worker.js": "/opensource/service-worker.js"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca45a5f4.js",
+    "static/js/2.8dd8a5d8.chunk.js",
+    "static/js/main.79604928.chunk.js"
+  ]
 }
