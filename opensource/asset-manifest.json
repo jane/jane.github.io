@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/opensource/static/js/main.c393d195.chunk.js",
-    "main.js.map": "/opensource/static/js/main.c393d195.chunk.js.map",
-    "runtime-main.js": "/opensource/static/js/runtime-main.7ca376b5.js",
-    "runtime-main.js.map": "/opensource/static/js/runtime-main.7ca376b5.js.map",
-    "static/js/2.cffc8379.chunk.js": "/opensource/static/js/2.cffc8379.chunk.js",
-    "static/js/2.cffc8379.chunk.js.map": "/opensource/static/js/2.cffc8379.chunk.js.map",
+    "main.js": "/opensource/static/js/main.7ce5b7af.chunk.js",
+    "main.js.map": "/opensource/static/js/main.7ce5b7af.chunk.js.map",
+    "runtime-main.js": "/opensource/static/js/runtime-main.06222c29.js",
+    "runtime-main.js.map": "/opensource/static/js/runtime-main.06222c29.js.map",
+    "static/js/2.b71b0412.chunk.js": "/opensource/static/js/2.b71b0412.chunk.js",
+    "static/js/2.b71b0412.chunk.js.map": "/opensource/static/js/2.b71b0412.chunk.js.map",
     "index.html": "/opensource/index.html",
-    "precache-manifest.f17238b9e6a9d1ced0822dc209e3a81a.js": "/opensource/precache-manifest.f17238b9e6a9d1ced0822dc209e3a81a.js",
+    "precache-manifest.1f75375cb2f90e80c9060fef0055566a.js": "/opensource/precache-manifest.1f75375cb2f90e80c9060fef0055566a.js",
     "service-worker.js": "/opensource/service-worker.js",
-    "static/js/2.cffc8379.chunk.js.LICENSE": "/opensource/static/js/2.cffc8379.chunk.js.LICENSE"
+    "static/js/2.b71b0412.chunk.js.LICENSE.txt": "/opensource/static/js/2.b71b0412.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7ca376b5.js",
-    "static/js/2.cffc8379.chunk.js",
-    "static/js/main.c393d195.chunk.js"
+    "static/js/runtime-main.06222c29.js",
+    "static/js/2.b71b0412.chunk.js",
+    "static/js/main.7ce5b7af.chunk.js"
   ]
 }
