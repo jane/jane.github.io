@@ -3,10 +3,7 @@
   "description": "Jane Open Source",
   "version": "0.0.1",
   "private": true,
-  "author": {
-    "name": "Zac Anger",
-    "url": "https://zacanger.com"
-  },
+  "author": "Jane",
   "scripts": {
     "build": "react-scripts build",
     "eject": "react-scripts eject",
